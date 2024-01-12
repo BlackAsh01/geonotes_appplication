@@ -1,0 +1,70 @@
+/* frontend/src/styles.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 1;
+  padding: 2;
+  background-color: #f4f4f4;
+}
+
+.container {
+  max-width: 10cm;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
+  margin-bottom: 1em;
+
+}
+
+label {
+  margin-bottom: 0.5em;
+}
+
+input,
+textarea {
+  margin-bottom: 1em;
+  padding: -0.5em;
+  font-size: 1em;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 0.5em 1em;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin: 0.5em 0;
+  padding: 1em;
+}
+
+Map
+.leaflet-container {
+  height: 400px;
+  width: 100%;
+  margin-bottom: 1em;
+}
